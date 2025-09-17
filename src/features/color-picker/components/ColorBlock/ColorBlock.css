@@ -1,0 +1,45 @@
+.cp-color-block {
+  position: relative;
+  overflow: visible;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 8px;
+
+  cursor: crosshair;
+  touch-action: none;
+  user-select: none;
+  isolation: isolate;
+}
+
+.cp-color-block__canvas {
+  border-radius: inherit;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.cp-color-block__marker {
+  position: absolute;
+  inset: 0;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+
+  cursor: grab;
+  touch-action: none;
+  z-index: 2;
+
+  transition: transform 20ms ease;
+  will-change: transform;
+}

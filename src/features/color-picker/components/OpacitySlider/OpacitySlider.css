@@ -1,0 +1,31 @@
+.cp-opacity-slider {
+  position: relative;
+
+  width: 100%;
+  min-height: 16px;
+
+  margin-top: 8px;
+  border-radius: 9999px;
+  overflow: visible;
+  cursor: ew-resize;
+  touch-action: none;
+  user-select: none;
+  isolation: isolate;
+}
+
+.cp-opacity-slider__marker {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  cursor: grab;
+  touch-action: none;
+  z-index: 2;
+  transition: transform 20ms ease;
+  will-change: transform;
+}
