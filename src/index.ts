@@ -1,9 +1,7 @@
-export * from './features/color-picker';
+export { ColorBlock } from "./features/color-picker";
 
-export * from './shared/lib/color';
+export * from "./shared/lib/color";
 
-export * from './shared/hooks/ColorPicker';
+export { ColorPicker } from "./shared/hooks/ColorPicker";
 
-export * from './shared/hooks/ColorPickerContext';
-
-import './index.css';
+import "./index.css";
