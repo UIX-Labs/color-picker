@@ -1,5 +1,5 @@
 {
-  "name": "color-picker",
+  "name": "react-pallete",
   "version": "1.0.0",
   "description": "A React color picker library",
   "type": "module",
