@@ -1,0 +1,5 @@
+/* Import all component styles */
+@import './features/color-picker/components/ColorBlock/ColorBlock.css';
+@import './features/color-picker/components/ColorStrip/ColorStrip.css';
+@import './features/color-picker/components/OpacitySlider/OpacitySlider.css';
+@import './shared/ui/Slider/Slider.css';
